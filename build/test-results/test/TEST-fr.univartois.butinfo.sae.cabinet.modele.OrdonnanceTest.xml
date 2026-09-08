@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="fr.univartois.butinfo.sae.cabinet.modele.OrdonnanceTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-06-15T12:35:49" hostname="leni-146-232.irsf" time="3.669">
+  <properties/>
+  <testcase name="deuxOrdonnancesDistinctes_sontInegales()" classname="fr.univartois.butinfo.sae.cabinet.modele.OrdonnanceTest" time="3.273"/>
+  <testcase name="getPrixTotal_avecPlusieursPrescriptions()" classname="fr.univartois.butinfo.sae.cabinet.modele.OrdonnanceTest" time="0.119"/>
+  <testcase name="estValide_dateValiditeFuture_retourneTrue()" classname="fr.univartois.butinfo.sae.cabinet.modele.OrdonnanceTest" time="0.029"/>
+  <testcase name="ajouterPrescription_augmenteLaListe()" classname="fr.univartois.butinfo.sae.cabinet.modele.OrdonnanceTest" time="0.026"/>
+  <testcase name="getPrixTotal_sansPrescription_retourneZero()" classname="fr.univartois.butinfo.sae.cabinet.modele.OrdonnanceTest" time="0.016"/>
+  <testcase name="getPrixTotal_avecUnePrescription()" classname="fr.univartois.butinfo.sae.cabinet.modele.OrdonnanceTest" time="0.017"/>
+  <testcase name="estValide_dateValiditeAujourdhui_retourneTrue()" classname="fr.univartois.butinfo.sae.cabinet.modele.OrdonnanceTest" time="0.015"/>
+  <testcase name="supprimerPrescription_inexistante_retourneFalse()" classname="fr.univartois.butinfo.sae.cabinet.modele.OrdonnanceTest" time="0.016"/>
+  <testcase name="supprimerPrescription_existante_retourneTrue()" classname="fr.univartois.butinfo.sae.cabinet.modele.OrdonnanceTest" time="0.018"/>
+  <testcase name="estValide_dateValiditePassee_retourneFalse()" classname="fr.univartois.butinfo.sae.cabinet.modele.OrdonnanceTest" time="0.011"/>
+  <testcase name="getPrescriptions_retourneCopieDeFensive()" classname="fr.univartois.butinfo.sae.cabinet.modele.OrdonnanceTest" time="0.018"/>
+  <testcase name="memeOrdonnance_estEgaleAElleMeme()" classname="fr.univartois.butinfo.sae.cabinet.modele.OrdonnanceTest" time="0.02"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/home/baptiste/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.12/be4984cb6fd1ef1d11f218a648889dfda44b8a15/byte-buddy-agent-1.14.12.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>

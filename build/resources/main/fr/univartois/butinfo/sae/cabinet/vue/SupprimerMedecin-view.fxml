@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="134.0" prefWidth="446.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.univartois.butinfo.sae.cabinet.controleur.ControllerSupprimerMedecin">
+    <top>
+        <Label alignment="CENTER" prefHeight="17.0" prefWidth="450.0" style="-fx-background-color: #00A4C9;" text="Supprimer médecin :" underline="true" BorderPane.alignment="CENTER">
+            <font><Font name="System Bold" size="24.0" /></font>
+        </Label>
+    </top>
+    <left>
+        <Label alignment="CENTER" prefHeight="17.0" prefWidth="141.0" text="ID :" BorderPane.alignment="CENTER">
+            <font><Font name="System Bold" size="18.0" /></font>
+        </Label>
+    </left>
+    <center>
+        <TextField fx:id="textFieldEnlever" alignment="TOP_RIGHT" prefHeight="25.0" prefWidth="151.0" BorderPane.alignment="CENTER">
+            <BorderPane.margin><Insets right="20.0" /></BorderPane.margin>
+        </TextField>
+    </center>
+    <right>
+        <Button fx:id="retour" mnemonicParsing="false" style="-fx-background-color: #2F363F;" text="Retour" textFill="WHITE" BorderPane.alignment="CENTER">
+            <BorderPane.margin><Insets right="15.0" /></BorderPane.margin>
+        </Button>
+    </right>
+    <bottom>
+        <Button fx:id="valideEnlever" mnemonicParsing="false" style="-fx-background-color: #db4425;" text="Valider" textFill="WHITE" BorderPane.alignment="CENTER">
+            <BorderPane.margin><Insets bottom="10.0" /></BorderPane.margin>
+        </Button>
+    </bottom>
+</BorderPane>

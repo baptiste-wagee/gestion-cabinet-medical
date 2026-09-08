@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<SplitPane dividerPositions="0.29797979797979796" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.univartois.butinfo.sae.cabinet.controleur.ControllerAjouterMedicament">
+    <items>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+            <children>
+                <ListView fx:id="listViewMedicaments" prefHeight="400.0" prefWidth="175.0" />
+            </children></AnchorPane>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+            <children>
+                <VBox prefHeight="398.0" prefWidth="417.0" style="-fx-background-color: DFE1E6;">
+                    <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="37.0" prefWidth="417.0" style="-fx-background-color: #d94929;" text="Ajouter médicaments :" textAlignment="CENTER" underline="true">
+                            <font>
+                                <Font name="System Bold" size="19.0" />
+                            </font>
+                            <VBox.margin>
+                                <Insets />
+                            </VBox.margin>
+                        </Label>
+                        <AnchorPane prefHeight="362.0" prefWidth="417.0">
+                            <children>
+                                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="28.0" prefWidth="85.0" style="-fx-background-color: #BDC1CB; -fx-background-radius: 5;" text="Nom :" textAlignment="CENTER" underline="true">
+                                    <font>
+                                        <Font name="System Bold" size="14.0" />
+                                    </font>
+                                </Label>
+                                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="59.0" prefHeight="28.0" prefWidth="85.0" style="-fx-background-color: #BDC1CB; -fx-background-radius: 5;" text="Description :" textAlignment="CENTER" underline="true">
+                                    <font>
+                                        <Font name="System Bold" size="14.0" />
+                                    </font>
+                                </Label>
+                                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="156.0" prefHeight="28.0" prefWidth="85.0" style="-fx-background-color: #BDC1CB; -fx-background-radius: 5;" text="Prix :" textAlignment="CENTER" underline="true">
+                                    <font>
+                                        <Font name="System Bold" size="14.0" />
+                                    </font>
+                                </Label>
+                                <TextField fx:id="textfieldNom" layoutX="128.0" layoutY="14.0" promptText="Nom médicament" />
+                                <TextField fx:id="textfieldPrix" layoutX="128.0" layoutY="156.0" promptText="Prix (ex : 12.50)" />
+                                <Button fx:id="btnAccueil" layoutX="321.0" layoutY="329.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="75.0" style="-fx-background-color: #2F363F;" text="Retour" textFill="WHITE" />
+                                <Button fx:id="btnAjouter" layoutX="209.0" layoutY="329.0" mnemonicParsing="false" onAction="#btnAjouter" prefHeight="26.0" prefWidth="85.0" style="-fx-background-color: #2C9C07;" text="Valider" textFill="WHITE" />
+                        <TextArea fx:id="textfieldDescription" layoutX="128.0" layoutY="54.0" prefHeight="84.0" prefWidth="162.0" promptText="Description médicments" />
+                            </children>
+                        </AnchorPane>
+                    </children>
+                </VBox>
+            </children></AnchorPane>
+    </items>
+</SplitPane>
